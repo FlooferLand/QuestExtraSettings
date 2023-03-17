@@ -9,6 +9,7 @@
 config_version=4
 
 [application]
+
 config/name="QuestExtraSettings"
 config/description="Launches the Android settings on your Quest 2"
 run/main_scene="res://Main.tscn"
@@ -17,16 +18,20 @@ boot_splash/bg_color=Color( 0, 0, 0, 1 )
 config/icon="res://icon.svg"
 
 [display]
+
 window/vsync/use_vsync=false
 window/energy_saving/keep_screen_on=false
 
 [gui]
+
 common/drop_mouse_on_gui_input_disabled=true
 
 [physics]
+
 common/physics_fps=1
 
 [rendering]
+
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false

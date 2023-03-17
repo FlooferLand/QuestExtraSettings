@@ -1,0 +1,14 @@
+# This file tells Github to not push out files that match a pattern.
+# Mostly just useless temporary files that'd made the repository look messy or break things
+
+# Build directory
+build/
+
+# Import files (images, etc)
+.import/
+*.import
+
+# Code editor-specific
+.vscode/
+.idea/
+*.swp

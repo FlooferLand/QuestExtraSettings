@@ -27,7 +27,7 @@ The steps are roughly:
 2. Download this project as a ZIP file _(`Code > Download ZIP`)_
 3. Extract the project into a folder
 4. Open the project in the Godot engine
-5. In the top menu: _`Project > Export.. > Add.. > Android`_
-6. Follow the steps installing the Android build template, and install the Android SDK and add it in your `Editor Settings`.
+5. In the top menu: _`Project > Export..`_
+6. Follow the steps installing the Android build template, and hit `Export`
 
-The export step itself might vary a bit, but is generally pretty easy _(there is a tutorial for all of this, just search up "Export Godot project to Android" on YouTube)_
+The export step might vary a bit, but it's pretty easy _(there is a tutorial for all of this, just search up "Export Godot project to Android" on YouTube)_
