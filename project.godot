@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+[application]
+config/name="QuestExtraSettings"
+config/description="Launches the Android settings on your Quest 2"
+run/main_scene="res://Main.tscn"
+boot_splash/show_image=false
+boot_splash/bg_color=Color( 0, 0, 0, 1 )
+config/icon="res://icon.svg"
+
+[display]
+window/vsync/use_vsync=false
+window/energy_saving/keep_screen_on=false
+
+[gui]
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+common/physics_fps=1
+
+[rendering]
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+quality/shadows/filter_mode=0
+quality/depth_prepass/enable=false
+environment/default_clear_color=Color( 0, 0, 0, 1 )
+quality/depth/hdr=false
